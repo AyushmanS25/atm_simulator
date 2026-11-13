@@ -28,14 +28,6 @@ java -jar target/atm-web-simulator-1.0.0.jar
 
 The application uses the `PORT` environment variable when supplied by a hosting provider, otherwise it listens on port 8080.
 
-## Deploy
-
-The project can be deployed to a Java-capable host such as Render using:
-- Build command: `mvn clean package`
-- Start command: `java -jar target/atm-web-simulator-1.0.0.jar`
-- Runtime: Java 21
-
-Alternatively, use the included Dockerfile on any Docker-compatible hosting platform.
 
 ## Validation rules
 1. Card number must match the demo card.
